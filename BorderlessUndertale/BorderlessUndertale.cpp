@@ -56,7 +56,7 @@ HWND MakeWindow(char* utpath)
 	ZeroMemory(&pi, sizeof(pi));
 
 	// Start the child process. 
-	if (!CreateProcess(s2ws(utpath).c_str(),   // Undertale (steam version, x64)
+	if (!CreateProcess(s2ws(utpath).c_str(),
 		NULL,        // Command line
 		NULL,           // Process handle not inheritable
 		NULL,           // Thread handle not inheritable
